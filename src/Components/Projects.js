@@ -1,7 +1,7 @@
 import { Col, Row } from 'react-bootstrap'
 
 
-function Projects({projectRef, blogRef}) {
+function Projects({projectRef, blogRef, aboutRef}) {
 
     function handleProject() {
         projectRef.current.scrollIntoView()
@@ -11,6 +11,9 @@ function Projects({projectRef, blogRef}) {
         blogRef.current.scrollIntoView()
     }
 
+    function handleAbout() {
+        aboutRef.current.scrollIntoView()
+    }
 
     return (
         
@@ -22,7 +25,7 @@ function Projects({projectRef, blogRef}) {
 
                 <div id="div_top_hypers2">
                     <ul id="ul_top_hypers2">
-                        <li><a href="" class="a_top_hypers2">   About   </a></li>
+                        <li onClick={handleAbout}><a href="#about-section" class="a_top_hypers2">   About   </a></li>
                         <li onClick={handleProject} className="before"><a href="#project-section" class="a_top_hypers2">   Projects   </a></li>
                         <li onClick={handleBlog} className="before"><a href="#blog-section" class="a_top_hypers2">   Blogs   </a></li>
                     </ul>

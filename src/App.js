@@ -10,20 +10,21 @@ import { useRef } from 'react';
 function App() {
   const projectRef = useRef(null)
   const blogRef = useRef(null)
+  const aboutRef = useRef(null)
 
   return (
     <div className="App">
       <Container>
         <Row>
-          <Home projectRef={projectRef} blogRef={blogRef} />
+          <Home aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
         </Row>
       </Container>
       <Container>
-          <Projects projectRef={projectRef} blogRef={blogRef} />
+          <Projects aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
       </Container>
       <Container>
         <Row>
-          <About projectRef={projectRef} blogRef={blogRef} />
+          <About aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
         </Row>
       </Container>
     </div>
