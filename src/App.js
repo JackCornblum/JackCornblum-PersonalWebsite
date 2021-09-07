@@ -23,9 +23,7 @@ function App() {
           <Projects aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
       </Container>
       <Container>
-        <Row>
           <About aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
-        </Row>
       </Container>
     </div>
   );

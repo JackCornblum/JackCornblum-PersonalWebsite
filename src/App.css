@@ -87,7 +87,7 @@ a.a_top_hypers:visited
 a.a_top_hypers:hover
 {
    color: rgb(234, 235, 227);
-   text-decoration: none;
+   text-decoration: underline;
 }
 a.a_top_hypers:active
 {
@@ -108,7 +108,7 @@ a.a_top_hypers2:visited
 a.a_top_hypers2:hover
 {
    color: rgb(59, 58, 112);
-   text-decoration: none;
+   text-decoration: underline;
 }
 a.a_top_hypers2:active
 {
@@ -148,6 +148,52 @@ li.before::before {
   font-weight: bold;
   margin-top: 5%;
   margin-bottom: 5%;
+}
+
+#blogs-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+  background-color: rgb(45, 44, 87);
+  height: 100vh;
+}
+
+#blogs {
+  background-color: rgb(234, 235, 227);
+}
+
+ul#ul_top_hypers {
+  padding: 0;
+}
+
+#div_top_hypers3 {
+  /* background-color:#eeeeee; */
+  display:inline;
+  position: static; 
+  bottom: 0;     
+  left: 28%;
+  right: 39%;
+  margin-bottom: 2%;
+  color: rgb(59, 58, 112);
+  font-family: 'Arvo', serif;
+}
+  #ul_top_hypers3 li{
+  display: inline;
+  color: rgb(59, 58, 112);
+  font-family: 'Arvo', serif;
+  padding:0;
+}
+
+ul#ul_top_hypers3 {
+  padding: 0;
+} 
+
+#blog-header {
+  color:rgb(234, 235, 227);
+  font-family: 'Arvo', serif;
+  font-weight: bold;
 }
 
 
