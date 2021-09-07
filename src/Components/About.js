@@ -1,10 +1,10 @@
 
 
-function About() {
+function About({projectRef, blogRef}) {
 
 
     return (
-        <div id="about">
+        <div ref={blogRef} id="blog-section">
             About
         </div>
     )
