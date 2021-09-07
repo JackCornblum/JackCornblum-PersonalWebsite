@@ -55,10 +55,10 @@ html, body {
 #div_top_hypers2 {
   /* background-color:#eeeeee; */
   display:inline;
-  position: absolute; 
+  position: static; 
   bottom: 0;     
-  left: 35%;
-  right: 37%;
+  left: 30%;
+  right: 39%;
   margin-bottom: 2%;
   color: rgb(59, 58, 112);
   font-family: 'Arvo', serif;
@@ -67,6 +67,10 @@ html, body {
   display: inline;
   color: rgb(59, 58, 112);
   font-family: 'Arvo', serif;
+}
+
+ul#ul_top_hypers2 {
+  padding: 0;
 }
 
 
@@ -91,6 +95,27 @@ a.a_top_hypers:active
    text-decoration: none;
 }
 
+a.a_top_hypers2:link
+{
+   color: rgb(59, 58, 112);
+   text-decoration: none;
+}
+a.a_top_hypers2:visited
+{
+   color: rgb(59, 58, 112);
+   text-decoration: none;
+}
+a.a_top_hypers2:hover
+{
+   color: rgb(59, 58, 112);
+   text-decoration: none;
+}
+a.a_top_hypers2:active
+{
+   color: rgb(59, 58, 112);
+   text-decoration: none;
+}
+
 
 li.before::before {
   content: " / ";
@@ -104,6 +129,9 @@ li.before::before {
 }
 
 #project-left {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   
   background-color: rgb(234, 235, 227);
   height: 100vh;
