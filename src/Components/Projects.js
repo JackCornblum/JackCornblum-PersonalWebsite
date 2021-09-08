@@ -32,7 +32,11 @@ function Projects({projectRef, blogRef, aboutRef}) {
                 </div>
             </Col>
             <Col id="projects">
-                <h1>here they are</h1>
+                
+                <div className="project-block">
+                    <h3 className="project-title"><a href="http://secret-bayou-38884.herokuapp.com/login" target="_blank" class="a_top_hypers">Tarkov Helper</a></h3>
+                    <iframe src="https://www.loom.com/embed/31585020ad8a4864ae6b40472b4da683" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen allowfullscreen="allowfullscreen" ></iframe>
+                </div>
             </Col>
         </Row>
     )

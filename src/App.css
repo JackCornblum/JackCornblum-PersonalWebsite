@@ -190,6 +190,15 @@ ul#ul_top_hypers3 {
   padding: 0;
 } 
 
+.project-title {
+  color:rgb(234, 235, 227);
+  font-family: 'Arvo', serif;
+}
+
+.project-block {
+  margin-top: 5%;
+}
+
 #blog-header {
   color:rgb(234, 235, 227);
   font-family: 'Arvo', serif;
