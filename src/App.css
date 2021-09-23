@@ -162,6 +162,11 @@ li.before::before {
   background-color: rgb(59, 58, 112);
   height: 100vh;
   scroll-snap-align: start;
+  overflow: hidden auto;
+}
+
+#projects::-webkit-scrollbar{
+  display: none;
 }
 
 .header { 
@@ -219,6 +224,7 @@ ul#ul_top_hypers3 {
 
 .project-block {
   margin-top: 5%;
+  /* overflow: auto; */
 }
 
 #blog-header {
