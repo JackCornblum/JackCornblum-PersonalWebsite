@@ -14,15 +14,15 @@ function App() {
 
   return (
     <div className="App">
-      <Container>
-        <Row>
+      <Container fluid>
+        <Row id="top-about">
           <Home aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
         </Row>
       </Container>
-      <Container>
+      <Container fluid>
           <Projects aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
       </Container>
-      <Container>
+      <Container fluid>
           <About aboutRef={aboutRef} projectRef={projectRef} blogRef={blogRef} />
       </Container>
     </div>
