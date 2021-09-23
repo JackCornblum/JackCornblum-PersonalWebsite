@@ -254,6 +254,23 @@ ul#ul_top_hypers3 {
   color: #61dafb;
 }
 
+.project-block {
+  margin-left: 6%;
+  margin-right: 6%;
+  border-radius: 5px;
+  border-color: rgb(234, 235, 227);;
+}
+
+.white-font {
+  color:rgb(234, 235, 227);
+  font-family: 'Arvo', serif;
+}
+
+.project-thumbnail {
+  width: 80%;
+  height: 15rem;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

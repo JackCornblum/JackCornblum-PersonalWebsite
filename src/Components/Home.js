@@ -17,11 +17,11 @@ function Home({projectRef, blogRef, aboutRef}) {
 
     return (
         <div ref={aboutRef} id="about-section" class="top">
-            <h2 id="header-name">Jack Cornblum</h2>
+            <h1 id="header-name">Jack Cornblum</h1>
 
-            <h4 id="header-title">Software Engineer</h4>
+            <h3 id="header-title">Software Engineer</h3>
 
-            <h6 id="header-about">I am a recent graduate from NC State university with a bachelors in Business Administration in Information Technology transitioning into Software Engineering</h6>
+            <h6 id="header-about">NC State University graduate with a degree in Business Administration in Information Technology. Full stack web developer with experience using Ruby, Rails, SQLite, and  Postgresql for backend development, Node, JavaScript, and React for frontend development.  My degree and time at Flatiron working on projects have strengthened my knowledge of business related information technology, and taught me how to be a rigorous problem-solver. I am passionate about learning software and technology, and look to deepen my understanding and experience through further exposure.</h6>
 
             <div id="div_top_hypers">
                 <ul id="ul_top_hypers">

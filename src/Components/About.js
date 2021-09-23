@@ -19,7 +19,7 @@ function About({projectRef, blogRef, aboutRef}) {
         <Row ref={blogRef} id="blog-section">
         <Col id="blogs-right">
             <div id="blog-header">
-                <h2 id="blog">Blogs</h2>
+                <h1 id="blog">Blogs</h1>
             </div>
 
             <div id="div_top_hypers3">
