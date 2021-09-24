@@ -7,9 +7,9 @@
 } */
 
 html {
-  scroll-snap-type: mandatory;
+  scroll-snap-type: proximity;
   scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
+  scroll-snap-type: y proximity;
 }
 
 .App {
@@ -270,11 +270,16 @@ ul#ul_top_hypers3 {
 .white-font {
   color:rgb(234, 235, 227);
   font-family: 'Arvo', serif;
+  margin-bottom: 5%;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .project-thumbnail {
   width: 80%;
   height: 15rem;
+  margin-bottom: 2%;
 }
 
 @keyframes App-logo-spin {
