@@ -1,10 +1,12 @@
 import {Card} from 'react-bootstrap'
 
-function Article() {
+function Article({title, description, image, content, link}) {
 
 
     return (
-        <div></div>
+        <Card className="article-card">
+            <Card.Img variant="top" src={image} />
+        </Card>
     )
 }
 

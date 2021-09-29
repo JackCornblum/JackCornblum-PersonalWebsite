@@ -177,6 +177,7 @@ li.before::before {
   margin-bottom: 5%;
 }
 
+
 #blogs-right {
   display: flex;
   justify-content: center;
@@ -189,6 +190,17 @@ li.before::before {
 
 #blogs {
   background-color: rgb(234, 235, 227);
+  height: 100vh;
+  scroll-snap-align: start;
+  overflow: hidden auto;
+}
+
+#article-block {
+  overflow: hidden auto;
+}
+
+#blogs::-webkit-scrollbar{
+  display: none;
 }
 
 ul#ul_top_hypers {
@@ -280,6 +292,13 @@ ul#ul_top_hypers3 {
   width: 80%;
   height: 15rem;
   margin-bottom: 2%;
+}
+
+.article-card {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 @keyframes App-logo-spin {
