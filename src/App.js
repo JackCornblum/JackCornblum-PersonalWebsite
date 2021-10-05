@@ -15,6 +15,8 @@ function App() {
 
   const [articles, setArticles] = useState('')
 
+  document.title = 'Jack Cornblum'
+
   useEffect(() => {
       fetch("https://api.rss2json.com/v1/api.json?rss_url=https://medium.com/feed/@jcornblum")
       .then(res => res.json())
