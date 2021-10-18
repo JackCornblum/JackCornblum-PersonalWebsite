@@ -19,7 +19,7 @@ html {
 #header-name {
   color: rgb(234, 235, 227);
   margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
   font-family: 'Arvo', serif;
 }
 
@@ -30,7 +30,7 @@ html {
 
 }
 
-#header-about {
+.header-about {
   color: rgb(234, 235, 227);
   font-family: 'Arvo', serif;
   margin-left: 3%;
@@ -39,6 +39,7 @@ html {
 
 #about-section {
   position: relative;
+  text-align: center;
 }
 
 .container {
@@ -66,7 +67,7 @@ html {
   color: rgb(234, 235, 227);
   font-family: 'Arvo', serif;
 }
-#ul_top_hypers li{
+.ul_top_hypers li{
   display: inline;
   color: rgb(234, 235, 227);
   font-family: 'Arvo', serif;
